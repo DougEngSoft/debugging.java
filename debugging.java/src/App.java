@@ -3,6 +3,11 @@ public class App {
         int foo = 45; //breakpoint
         String bar = "mensagem";
         System.out.println("Imprimindo bar abaixo");
+
+        for(int i = 0; i < 100; i++){
+            System.out.println(i);
+        }
+        
         bar = "outra mensagem"; //breakpoint
         bar = "mais uma mensagem"; 
         System.out.println(bar); //breakpoint
